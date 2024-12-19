@@ -1,0 +1,5 @@
+run: 
+
+```bash
+$ cargo run
+```
