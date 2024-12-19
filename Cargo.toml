@@ -1,0 +1,18 @@
+[package]
+name = "openvm-example-fibonacci"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openvm = { git = "https://github.com/openvm-org/openvm.git" }
+openvm-build = { git = "https://github.com/openvm-org/openvm.git" }
+openvm-sdk = { git = "https://github.com/openvm-org/openvm.git" }
+openvm-stark-sdk = { git = "https://github.com/openvm-org/stark-backend", tag = "v0.1.1-alpha" }
+openvm-native-recursion = { git = "https://github.com/openvm-org/openvm.git" }
+openvm-transpiler = { git = "https://github.com/openvm-org/openvm.git" }
+eyre = "0.6.12"
+serde = "1.0.26"
+
+[features]
+default = []
+std = ["openvm/std"]
