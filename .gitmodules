@@ -1,0 +1,3 @@
+[submodule "openvm-example-fibonacci"]
+	path = openvm-example-fibonacci
+	url = git@github.com:openvm-org/openvm-example-fibonacci.git
